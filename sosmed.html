@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Caveat',cursive;
+        }
+        html, body{
+            display: grid;
+            height: 100%;
+            width: 100%;
+            place-items: center;
+            background: linear-gradient(315deg, #77acf1, #fff5fd);
+        }
+        .box{
+            border-radius: 20px;
+            padding: 6%;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+            border-top: 1px solid rgba(255, 255, 255, 0.5);
+            border-left: 1px solid rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(5px);
+            display: flex;
+        }
+        .box .button{
+            position: relative;
+            display: inline-block;
+            height: 60px;
+            width: 60px;
+            float: left;
+            margin: 25px;
+            overflow: hidden;
+            background: #fff;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3% ease-out;
+        }
+        .box .button .icon{
+            display: inline-block;
+            height: 60px;
+            width: 60px;
+            text-align: center;
+            border-radius: 50px;
+            box-sizing: border-box;
+            line-height: 60px;
+            transition: all 0.8s ease-out;
+        }
+        .box .button a{
+            color: #4267b2;
+        }
+        .box .button:hover{
+            width: 200px;
+        }
+        .box .button:hover .icon{
+            background:#4267b2;
+        }
+        .box .button .icon i{
+            font-size: 25px;
+            line-height: 60px;
+            transition: all 0.8s ease-out;
+        }
+        .box .button:hover .icon i{
+            color: #fff;
+        }
+        .box .button span{
+            font-size: 20px;
+            font-weight: 500px;
+            line-height: 60px;
+            margin: 10px;
+            transition: all 0.3s ease-out;
+        }
+        .box .button span{
+            color: #4267b2;
+        }
+        @media screen and (max-width: 480px){
+            .box{
+                flex-direction: column;
+            }
+        }
+    </style>
+    <title>My social media</title>
+</head>
+<body>
+    <div class="box">
+        <div class="button">
+            <div class="icon"> <a href="https://web.facebook.com/bersatu.dalamdamai.3192/"> <i class="fab fa-facebook-f"></i></a></div>
+            <span>facebook</span>
+        </div>
+        <div class="button">
+            <div class="icon"> <a href="https://web.whatsapp.com/"> <i class="fab fa-whatsapp"></i></a></div>
+            <span>whatsapp</span>
+        </div>
+        <div class="button">
+            <div class="icon"> <a href="https://www.instagram.com/atoengg/"> <i class="fab fa-instagram"></i></a></div>
+            <span>instagram</span>
+        </div>
+        <div class="button">
+            <div class="icon"> <a href="https://web.telegram.org/z/"> <i class="fab fa-telegram"></i></a></div>
+            <span>telegram</span>
+        </div>
+    </div>
+    <div class="footer">
+        <footer>M irham alkarim &copy; 2022</footer>
+    </div>
+</body>
+</html>
