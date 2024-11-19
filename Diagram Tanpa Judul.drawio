@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="Halaman-1" id="v_f0oIieX6nZbfierRjr">
-    <mxGraphModel dx="1434" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1134" dy="704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,23 +64,32 @@
         </mxCell>
         <mxCell id="xL1-Z52I6kfTr1i_h-am-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="xL1-Z52I6kfTr1i_h-am-45" target="xL1-Z52I6kfTr1i_h-am-48" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="390.3333333333335" y="790" as="targetPoint" />
+            <mxPoint x="390.3333333333335" y="900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xL1-Z52I6kfTr1i_h-am-45" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Hasil Pengujian :&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Bug Reporting&lt;/li&gt;&lt;li&gt;Perhitungan Hasil Pengujian&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="295" y="610" width="210" height="100" as="geometry" />
+          <mxGeometry x="295" y="720" width="210" height="100" as="geometry" />
         </mxCell>
         <mxCell id="xL1-Z52I6kfTr1i_h-am-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="399.75307692307683" y="920" as="targetPoint" />
-            <mxPoint x="399.75" y="870" as="sourcePoint" />
+            <mxPoint x="399.75307692307683" y="1030" as="targetPoint" />
+            <mxPoint x="399.75" y="980" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xL1-Z52I6kfTr1i_h-am-48" value="Penulisan Laporan" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="780" width="160" height="80" as="geometry" />
+          <mxGeometry x="320" y="890" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xL1-Z52I6kfTr1i_h-am-52" value="Selesai" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="340.0030769230769" y="920" width="120" height="80" as="geometry" />
+          <mxGeometry x="340.0030769230769" y="1030" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_Fjl3jhMQ-rgFDk-KS2i-1" value="Eksekusi Pengujian&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="610" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Fjl3jhMQ-rgFDk-KS2i-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399.66" y="670" as="sourcePoint" />
+            <mxPoint x="399.66" y="720" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
